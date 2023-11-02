@@ -1,0 +1,60 @@
+.upper-main-container-Module-setup {
+    border-radius: 14px;
+    background: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nav-container-Module-setup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .first-container-Module-setup {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .textField-input.MuiOutlinedInput-root {
+    border-radius: 17px;
+    border: 1.4px solid rgba(148, 148, 148, 0.24);
+    background: #fff;
+    height: 41px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  .buttons-Module-setup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+  }
+  
+  .button-Module-setup.MuiButton-root {
+    height: 36px;
+    min-width: 36px;
+    margin-left: 5px;
+    border-radius: 36px;
+    margin-top: 15px;
+  }
+  .search-button-Module-setup.MuiButton-root {
+    background-color: #1c6bf4;
+  }
+  .reset-button-Module-setup-hover.MuiButton-root:hover {
+    background-color: #1c6bf4 !important;
+  }
+  .reset-button-Module-setup.MuiButton-root {
+    background-color: #e1e1e1;
+  }
+  
+  .iconbutton.MuiIconButton-root {
+    padding: 0px;
+    padding-right: 5px;
+  }
+  

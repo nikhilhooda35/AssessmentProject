@@ -1,0 +1,143 @@
+.adminLogin-changePassword {
+  /* position: absolute; */
+  margin-top: 150px;
+  margin-left: 180px;
+  /* height: 350px; */
+}
+.assessment-software-text-changePassword {
+  color: #002058;
+  text-align: center;
+  line-height: 41px; /* 128.125% */
+}
+.assessment-software-text-parent-changePassword {
+  position: absolute;
+  left: 350px;
+  top: 515px;
+}
+.assessment-software-text-child-changePassword {
+  color: rgba(0, 32, 88, 0.85);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* styles.css */
+
+.grid-container-changePassword {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid-item-changePassword {
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-container-changePassword {
+  width: 100%;
+  height: 100%;
+  margin-top: -40px;
+}
+
+.box-container-changePassword {
+  margin-top: 35px;
+}
+
+.icon-container-changePassword {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 70px;
+}
+
+.icon-changePassword {
+  width: 20px;
+  height: 20px;
+}
+/* styles.css */
+.back-to-home-changePassword.MuiTypography-root {
+  margin-top: 6px;
+  color: #002058;
+  text-align: center;
+  font-family: FontRegular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.inner-box-changePassword {
+  margin-top: 55px;
+  margin-left: 0;
+  border-radius: 28px;
+  background-color: #fff;
+  width: 407px;
+  height: 400px;
+  box-shadow: 0px 6px 11px rgba(1, 24, 64, 0.13);
+}
+
+.inner-box-content-changePassword {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.vertical-line-changePassword {
+  margin-top: 50px;
+  width: 4px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: #002058;
+}
+
+.title-changePassword.MuiTypography-root {
+  color: #002058;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.description-changePassword.MuiTypography-root {
+  color: rgba(21, 21, 21, 0.75);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 70px;
+}
+
+.text-field-container-changePassword {
+  margin-top: 20px;
+}
+
+.custom-text-field-changePassword {
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 15px;
+  background: #e5f4ff;
+  margin-left: 40px;
+}
+
+.submit-button-changePassword.MuiButton-root {
+  min-width: 310px;
+  margin-left: 50px;
+  border-radius: 36px;
+  margin-top: 15px;
+  background-color: #002058;
+}
+
+.submit-button-text-changePassword {
+  font-weight: 500;
+  font-size: 14px;
+}

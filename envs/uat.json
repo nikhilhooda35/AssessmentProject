@@ -1,0 +1,4 @@
+{
+  "ENVIRONMENT": "UAT",
+  "API_HOST": "http://dotnetuat.uneecopscloud.com:9096/api/"
+}

@@ -1,0 +1,122 @@
+.adminLogin-forgotPassword {
+  /* position: absolute; */
+  margin-top: 150px;
+  margin-left: 180px;
+  height: 350px;
+}
+.assessment-software-text-forgotPassword {
+  color: #002058;
+  text-align: center;
+  line-height: 41px; /* 128.125% */
+}
+.assessment-software-text-parent-forgotPassword {
+  position: absolute;
+  left: 350px;
+  top: 515px;
+}
+.assessment-software-text-child-forgotPassword {
+  color: rgba(0, 32, 88, 0.85);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.box-container-forgotPassword {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}
+
+.icon-container-forgotPassword {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 70px;
+}
+
+.icon-forgotPassword {
+  width: 20px;
+  height: 20px;
+}
+
+.back-to-home-forgotPassword.MuiTypography-root {
+  margin-top: 10px;
+  color: #002058;
+  text-align: center;
+  font-family: FontRegular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.inner-box-forgotPassword {
+  margin-top: 95px;
+  margin-left: 70px;
+  border-radius: 28px;
+  background-color: #fff;
+  width: 407px;
+  height: 350px;
+  box-shadow: 0px 6px 11px rgba(1, 24, 64, 0.13);
+}
+
+.inner-box-content-forgotPassword {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.vertical-line-forgotPassword {
+  margin-top: 50px;
+  width: 4px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: #002058;
+}
+
+.title-forgotPassword.MuiTypography-root {
+  color: #002058;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.description-forgotPassword.MuiTypography-root {
+  color: rgba(21, 21, 21, 0.75);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -5px;
+  margin-left: 70px;
+}
+
+.text-field-container-forgotPassword {
+  margin-top: 20px;
+}
+
+.custom-text-field-forgotPassword {
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 15px;
+  background: #e5f4ff;
+  margin-left: 40px;
+}
+
+.button-forgotPassword.MuiButton-root {
+  min-width: 310px;
+  margin-left: 50px;
+  border-radius: 36px;
+  margin-top: 15px;
+}
+.cancel-button-forgotPassword.MuiButton-root {
+  background-color: #dae3f3;
+}
+.reset-button-forgotPassword.MuiButton-root {
+  background-color: #002058;
+}

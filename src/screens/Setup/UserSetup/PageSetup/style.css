@@ -1,0 +1,168 @@
+/* Default styles */
+
+.upper-main-container {
+  border-radius: 14px;
+  background: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.page-setup-text {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.addNew-setup-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.addNew-button-PageSetup {
+  background-color: #1c6bf4;
+  margin-bottom: 5px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.textField-input.MuiOutlinedInput-root {
+  border-radius: 17px;
+  border: 1.4px solid rgba(148, 148, 148, 0.24);
+  background: #fff;
+  height: 41px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.button-PageSetup.MuiButton-root {
+  height: 36px;
+  min-width: 36px;
+  margin-left: 5px;
+  border-radius: 36px;
+  margin-top: 15px;
+}
+
+.search-button-PageSetup.MuiButton-root {
+  background-color: #1c6bf4;
+}
+
+.reset-button-PageSetup-hover.MuiButton-root:hover {
+  background-color: #1c6bf4 !important;
+}
+
+.reset-button-PageSetup.MuiButton-root {
+  background-color: #e1e1e1;
+}
+
+.iconbutton.MuiIconButton-root {
+  padding: 0px;
+  padding-right: 5px;
+}
+
+.edit-icon {
+  color: #1c6bf4;
+  height: 25px;
+  width: 25px;
+}
+
+.delete-icon {
+  color: #dd2828;
+  height: 25px;
+  width: 25px;
+}
+
+.pass-text {
+  background-color: #17d056;
+  border-radius: 10px;
+}
+
+.inactive-text {
+  background-color: #dd2828;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .addNew-setup-text {
+    font-size: 12px;
+  }
+
+  .textField-input.MuiOutlinedInput-root {
+    width: 100%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .button-PageSetup.MuiButton-root {
+    margin-top: 5px;
+  }
+}
+
+/* Adjust styles for even smaller screens */
+@media (max-width: 480px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .page-setup-text {
+    font-size: 18px;
+  }
+
+  .addNew-setup-text {
+    font-size: 10px;
+  }
+
+  .textField-input.MuiOutlinedInput-root {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .button-PageSetup.MuiButton-root {
+    margin-top: 5px;
+  }
+}

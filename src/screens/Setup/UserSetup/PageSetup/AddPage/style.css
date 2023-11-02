@@ -1,0 +1,84 @@
+/* Default styles */
+
+.upper-main-container-addPage {
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-container-addPage {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.remarks-input-addPage.MuiOutlinedInput-root,
+.textField-input-addPage.MuiOutlinedInput-root {
+  border-radius: 17px;
+  background: #fff;
+  font-size: 16px;
+}
+
+.buttons-addPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.button-addPage.MuiButton-root {
+  height: 36px;
+  min-width: 36px;
+  margin-left: 5px;
+  border-radius: 36px;
+  margin-top: 15px;
+}
+
+.search-button-addPage.MuiButton-root {
+  background-color: #1c6bf4;
+}
+
+.reset-button-addPage-hover.MuiButton-root:hover {
+  background-color: #1c6bf4 !important;
+}
+
+.reset-button-addPage.MuiButton-root {
+  background-color: #e1e1e1;
+}
+
+.iconbutton.MuiIconButton-root {
+  padding: 0px;
+  padding-right: 5px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .upper-main-container-addPage {
+    padding: 10px;
+  }
+  
+  .first-container-addPage {
+    justify-content: space-between;
+  }
+  
+  .buttons-addPage {
+    margin-right: 10px;
+  }
+}
+
+/* Adjust styles for even smaller screens */
+@media (max-width: 480px) {
+  .upper-main-container-addPage {
+    padding: 5px;
+  }
+
+  .first-container-addPage {
+    flex-direction: column;
+  }
+  
+  .buttons-addPage {
+    margin-right: 5px;
+  }
+}

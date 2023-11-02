@@ -1,0 +1,73 @@
+/* Default styles for larger screens */
+.listIcon {
+  padding-top: 5px;
+  margin: 5px;
+}
+.box {
+  border-radius: 14px;
+  min-width: 20%;
+  padding: 10px;
+  margin: 20px;
+}
+.createAssessmentCard {
+  border-radius: 13.354px;
+  background: #004cdf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.createAssessmentText {
+  color: #fff;
+  font-family: FontRegular;
+  font-size: 15.262px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2px;
+}
+
+.card2 {
+  border-radius: 13.354px;
+  border: 0.954px solid #e0e0e0;
+  background: #fff;
+  flex-shrink: 0;
+  padding: 15px;
+  margin: 10px;
+}
+.card2Head {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card2HeadText {
+  color: #151515;
+  font-family: FontRegular;
+  font-size: 17.169px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.viewButton {
+  border-radius: 3.815px;
+  background: #004cdf;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .box {
+    min-width: 40%;
+  }
+
+  .createAssessmentCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .card2 {
+    width: 80%;
+  }
+}

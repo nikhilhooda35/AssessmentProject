@@ -1,0 +1,40 @@
+.adminLogin-login {
+  /* position: absolute; */
+  margin-top: 150px;
+  margin-left: 180px;
+  height: 350px;
+}
+.assessment-software-text-login {
+  color: #002058;
+  text-align: center;
+  line-height: 41px; /* 128.125% */
+}
+.assessment-software-text-parent-login {
+  position: absolute;
+  left: 350px;
+  top: 515px;
+}
+.assessment-software-text-child-login {
+  color: rgba(0, 32, 88, 0.85);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */ 
+}
+
+.reset-button.MuiButton-root {
+  margin-right: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 0px;
+  padding-right: 1px;
+
+}
+
+@media screen and (min-width: 768px) {
+  .assessment-software-text-parent-login {
+    left: 300px;
+    top: 515px;
+  }
+}
